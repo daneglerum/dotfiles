@@ -26,3 +26,9 @@ if [ $? -eq 0 ]; then
 	eval "$(rbenv init -)"
 	rbenv global 1.9.3-p194
 fi
+
+# Get GitPS1 working which is used for listing the git branch
+#http://ihswebdesign.com/knowledge-base/bash-completion-git-branch-in-your-prompt-yes/
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+        . `brew --prefix`/etc/bash_completion
+fi

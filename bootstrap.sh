@@ -15,3 +15,5 @@ else
 fi
 unset doIt
 source ~/.bash_profile
+
+echo "Files copied. Run ~/.osx to set fancy OS X defaults and ~/.brew to get homebrew up and running"
